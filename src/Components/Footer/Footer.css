@@ -1,0 +1,81 @@
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #333;
+  height: 350px;
+  padding: 30px;
+}
+@media screen and (max-width: 500px) {
+  footer {
+    flex-direction: column-reverse;
+    padding: 40px;
+    height: auto;
+    transform: translateY(900px);
+  }
+}
+footer .colona1 {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+}
+@media screen and (max-width: 500px) {
+  footer .colona1 {
+    align-items: center;
+  }
+}
+footer .colona1 span {
+  color: #fff;
+  font-size: 19px;
+  margin-bottom: 20px;
+}
+footer .colona1 h1 {
+  color: #fff;
+  margin-bottom: 10px;
+}
+footer .colona1 a {
+  color: #fff;
+  margin-top: 25px;
+}
+@media screen and (max-width: 500px) {
+  footer .colona1 a {
+    margin-bottom: 20px;
+  }
+}
+footer .colona2 {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+@media screen and (max-width: 500px) {
+  footer .colona2 {
+    margin-top: 40px;
+  }
+}
+footer .colona3 {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 80px;
+}
+footer .colona4 {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 104px;
+}
+footer h2 {
+  color: #fff;
+  font-size: 23px;
+  margin-bottom: 30px;
+}
+footer h3 {
+  color: #fff;
+  font-size: 17px;
+  margin-bottom: 5px;
+}/*# sourceMappingURL=Footer.css.map */
